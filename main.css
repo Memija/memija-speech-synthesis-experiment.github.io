@@ -1,0 +1,30 @@
+body {
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-image: url("./assets/images/background/background.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Kalam', cursive;
+}
+
+label {
+    font-size: medium;
+}
+
+    body > div:first-child {
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        text-align: center;
+    }
+
+textarea {
+    min-height: 125px;
+    resize: vertical;
+}
+
+.btn-success {
+    margin-right: 1em;
+}
