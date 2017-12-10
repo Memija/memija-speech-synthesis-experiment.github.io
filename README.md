@@ -1,2 +1,2 @@
-# memija-speech-synthesis-experiment.github.io
-Speech synthesis experiment
+# Speech Synthesis Experiment
+Using Speech Synthesis Web API.
