@@ -22,7 +22,7 @@ const stopButton = document.querySelector('#stop');
 
 // DOM (Document Object Model) related functions.
 
-/*
+/**
  * Populate voices drop-down.
  */
 function populateVoicesDropDown() {
@@ -32,7 +32,7 @@ function populateVoicesDropDown() {
         .join('');
 }
 
-/*
+/**
  * Set voice.
  */
 function setVoice() {
@@ -42,7 +42,7 @@ function setVoice() {
     toggleSpeakFunctionality();
 }
 
-/*
+/**
  * Set voice options.
  */
 function setVoiceOptions() {
@@ -50,9 +50,10 @@ function setVoiceOptions() {
     toggleSpeakFunctionality();
 }
 
-/*
+/**
  * Toggle speak functionality.
  * Cancel the current speaking process and start one a new unless explicitly requested not to start it again.
+ * 
  * @param {boolean} startOver - Start speaking from the beginning of the requested text.
  */
 function toggleSpeakFunctionality(startOver = true) {
